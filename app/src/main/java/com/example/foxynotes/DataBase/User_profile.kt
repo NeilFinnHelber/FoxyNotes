@@ -30,6 +30,7 @@ data class User_profile(
     val theme_id: Int? = 0,
     val timer_id: Int?,
 
+    val profile_image_url: String,
     val experience_points: Int,
     val active_task_amount: Int,
     val reroll_usage_amount_today: Int,

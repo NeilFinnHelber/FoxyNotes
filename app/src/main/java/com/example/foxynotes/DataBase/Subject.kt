@@ -35,5 +35,6 @@ data class Subject(
     val subject_color: String,
     val is_active: Boolean,
     val subject_appearance_proability_multiplier: Int,
+    val goal_of_the_subject: String
 
     )

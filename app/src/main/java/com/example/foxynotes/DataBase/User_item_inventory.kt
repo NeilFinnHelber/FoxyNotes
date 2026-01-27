@@ -29,6 +29,5 @@ data class User_item_inventory(
     val user_id: Int,
     val item_id: Int,
 
-    val purchased_date: LocalDate,
     val amount: Int? = 0
 )

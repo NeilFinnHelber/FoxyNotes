@@ -25,5 +25,5 @@ data class Item(
     val is_unlocked: Boolean,
     val base_cost: Int,
     val art_url: String,
-    val special_material_cost: Int?
+    val vaucher_cost: Int?
 )

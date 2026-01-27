@@ -38,5 +38,6 @@ data class Task(
     val active_for_days_number: Int,
     val is_in_progress: Boolean,
     val is_currently_to_do_task: Boolean,
-    val is_choosen_task: Boolean
+    val is_choosen_task: Boolean,
+    val percentage_of_completion: Int
 )
